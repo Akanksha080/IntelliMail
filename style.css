@@ -1,0 +1,79 @@
+:root{
+  
+    --pink_primary:rgba(255, 253, 182, 0.802);
+    --pink_secondary:orange;
+    --text_color:rgb(255, 255, 252);
+  
+    
+    
+  }
+  
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  /*title bar*/
+  body{
+    background-image: url('Assets/bg.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  
+  .prega{
+   color:var(--pink_primary);
+   font-family: 'Playfair Display';
+   font-size: 3rem;
+   float: left;
+  }
+  
+  
+
+  
+  
+  /*nav-bar*/
+  ul li{
+    list-style-type: none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: var(--pink_primary);
+  }
+  
+  a:hover{
+    color: var(--pink_secondary);
+  }
+  
+  
+  
+  ul{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .nav-item{
+    margin:  1.5rem;
+    float: right;
+  }
+  
+  
+  
+  nav{
+    background: rgb(123, 121, 121);
+    display:flex;
+    padding:1rem 1.5rem;
+    box-shadow: 2px 3px 2px #8f8c8c;
+  }
+  
+  .nav{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:1;
+  }
+
+ 
